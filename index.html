@@ -3,22 +3,93 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>PropInspection</title>
+<title>Prop Inspection: move-in and move-out reports</title>
+<meta name="description" content="Move-in and move-out inspection reports for Dubai letting agents: room-by-room checklists, entry and exit photos side by side, on-screen signatures and a PDF.">
+<link rel="icon" href="logo.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600&family=Instrument+Serif&display=swap" rel="stylesheet">
-<style>:root{--bg:#f5efe6;--ink:#1f1b16;--mut:#6b6258;--acc:#c2512b;--card:#fffaf3;--line:#e3d9cb}@media(prefers-color-scheme:dark){:root{--bg:#171410;--ink:#f3ece1;--mut:#a79d90;--acc:#e5774f;--card:#211d17;--line:#352f27}}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.65 'DM Sans',system-ui,sans-serif}.w{max-width:720px;margin:0 auto;padding:48px 24px 80px}.brand{display:flex;align-items:center;gap:10px;font-weight:600;letter-spacing:.02em;margin-bottom:56px}.dot{width:14px;height:14px;border-radius:50%;background:var(--acc)}h1{font:400 clamp(38px,7vw,58px)/1.05 'Instrument Serif',Georgia,serif;margin:0 0 12px;letter-spacing:-.01em}h2{font:600 15px 'DM Sans',sans-serif;text-transform:uppercase;letter-spacing:.09em;color:var(--acc);margin:40px 0 8px}p{margin:0 0 14px}.m{color:var(--mut)}a{color:var(--acc)}.c{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px 22px;margin:22px 0}footer{margin-top:64px;color:var(--mut);font-size:14px;border-top:1px solid var(--line);padding-top:20px}.lead{font-size:21px;max-width:560px}ul{padding-left:20px}li{margin-bottom:6px}</style>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600..800&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="w">
-<div class="brand"><span class="dot"></span>PropInspection</div>
-<h1>Move-in and move-out reports, done properly.</h1>
-<p class="lead m">Photograph every room, compare entry and exit side by side, collect signatures on screen and export a clear PDF. Built for letting agents in Dubai.</p>
-<h2>Entry inspection</h2>
-<ul><li>A room-by-room checklist that adapts to the property</li><li>Timestamped photos, notes, meter readings, keys counted</li><li>Tenant and agent sign on screen</li></ul>
-<h2>Exit inspection</h2>
-<ul><li>Every item shows its entry condition and photos</li><li>Wear, damage and missing keys flagged</li><li>Proposed deductions and a side-by-side PDF</li></ul>
-<div class="c"><p style="margin:0">Your data stays on your device. Questions? <a href="support.html">Contact support</a>.</p></div>
-<footer>PropInspection is a documentation tool, not legal advice.<br>Karyne de Clercq, Dubai, United Arab Emirates<br><a href="privacy.html">Privacy policy</a> · <a href="support.html">Support</a></footer>
+<div class="hero"><header class="top"><a class="logo" href="./"><img src="logo.svg" alt=""><span><b>Prop</b> Inspection</span></a><nav><a href="support.html">Support</a><a href="privacy.html">Privacy</a><a class="btn" href="mailto:karyne.declercq@icloud.com?subject=Prop%20Inspection%20early%20access">Request early access</a></nav></header>
+<div class="in">
+<div>
+<h1>Handovers, settled.</h1>
+<p class="lead">The inspection report nobody argues with. Entry and exit photos side by side, signed on screen, in one PDF.</p>
+<a class="btn" href="mailto:karyne.declercq@icloud.com?subject=Prop%20Inspection%20early%20access">Request early access</a>
+<span class="sub">Coming to the App Store. We send you the beta invite first.</span>
 </div>
+<div class="phones">
+<div class="phone back" aria-hidden="true"><div class="screen">
+<div class="bar"><span>Kitchen</span><span class="pill">Entry</span></div>
+<h3>Oven</h3>
+<div class="shots1"><div class="ph" style="height:112px"><svg viewBox="0 0 120 112" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="120" height="112" fill="#efe8da"/><rect x="0" y="78" width="120" height="34" fill="#cfc6b4"/><rect x="74" y="12" width="34" height="44" rx="3" fill="#fff6d6"/><path d="M91 12v44M74 34h34" stroke="#d9cfb6" stroke-width="2"/><rect x="14" y="40" width="52" height="46" rx="4" fill="#2b2f2d"/><rect x="20" y="52" width="40" height="28" rx="3" fill="#1a1d1c"/><rect x="22" y="44" width="36" height="4" rx="2" fill="#8d9490"/></svg></div></div>
+<ul class="list"><li>Oven <b>Clean</b></li><li>Hob <b>Clean</b></li><li>Sink <b>Good</b></li><li>Extractor <b>Working</b></li></ul>
+</div></div>
+<div class="phone front" aria-label="Example of the exit inspection screen"><div class="screen">
+<div class="bar"><span>Kitchen</span><span class="pill">Exit</span></div>
+<h3>Oven</h3>
+<div class="shots"><figure><div class="ph" style="height:112px"><svg viewBox="0 0 120 112" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="120" height="112" fill="#efe8da"/><rect x="0" y="78" width="120" height="34" fill="#cfc6b4"/><rect x="74" y="12" width="34" height="44" rx="3" fill="#fff6d6"/><path d="M91 12v44M74 34h34" stroke="#d9cfb6" stroke-width="2"/><rect x="14" y="40" width="52" height="46" rx="4" fill="#2b2f2d"/><rect x="20" y="52" width="40" height="28" rx="3" fill="#1a1d1c"/><rect x="22" y="44" width="36" height="4" rx="2" fill="#8d9490"/></svg></div><figcaption>At entry</figcaption></figure><figure><div class="ph" style="height:112px"><svg viewBox="0 0 120 112" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="120" height="112" fill="#efe8da"/><rect x="0" y="78" width="120" height="34" fill="#bdb39f"/><rect x="74" y="12" width="34" height="44" rx="3" fill="#fff6d6"/><path d="M91 12v44M74 34h34" stroke="#d9cfb6" stroke-width="2"/><rect x="14" y="40" width="52" height="46" rx="4" fill="#2b2f2d"/><rect x="20" y="52" width="40" height="28" rx="3" fill="#1a1d1c"/><rect x="22" y="44" width="36" height="4" rx="2" fill="#8d9490"/><circle cx="86" cy="76" r="9" fill="#FF4B2B" opacity=".9"/><path d="M80 70l12 12M92 70L80 82" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/></svg></div><figcaption>Today</figcaption></figure></div>
+<p class="entry">Entry condition: clean, working</p>
+<div class="chips" role="radiogroup" aria-label="Condition now">
+<button class="chip" role="radio" aria-checked="true" data-s="same" data-n="Matches the entry report.">Same</button>
+<button class="chip" role="radio" aria-checked="false" data-s="wear" data-n="Noted as wear, with your comment.">Wear</button>
+<button class="chip" role="radio" aria-checked="false" data-s="damage" data-n="A photo is required before you continue.">Damage</button>
+</div>
+<p class="note" id="note" aria-live="polite">Matches the entry report.</p>
+</div></div>
+</div>
+</div>
+<svg class="sky" viewBox="0 0 1440 140" preserveAspectRatio="none" aria-hidden="true"><path fill="#E8A200" d="M0 140V96h60V70h50v26h40V54h46v42h30V84h44v12h40V40h30v56h26V20h8V6h6v14h8v76h28V64h50v32h40V80h60v16h40V58h48v38h34V76h56v20h48V44h40v52h30V70h70v26h44V88H1440V140z"/></svg>
+</div>
+<section class="band"><div class="in">
+<h2>Three taps per item. Same, wear or damage.</h2>
+<p>At exit, every line shows what it looked like at entry, with the photos you took then. You only decide what changed.</p>
+<div class="states">
+<div class="state s-same"><h3>Same</h3><p>Nothing to report. The item matches the entry inspection.</p></div>
+<div class="state s-wear"><h3>Wear</h3><p>Normal use over the tenancy. Add a note and move on.</p></div>
+<div class="state s-damage"><h3>Damage</h3><p>A photo is mandatory, and the item can go straight into the proposed deductions.</p></div>
+</div></div></section>
+<section class="band green"><div class="in split">
+<div>
+<h2>It reads the paperwork before you arrive.</h2>
+<p>Add the title deed, the tenancy contract and the addendum. The sheet fills itself: building, unit, rent, dates, key clauses. Bedrooms and bathrooms set the room list. You confirm every field.</p>
+<ul class="docs"><li>Title deed</li><li>Tenancy contract</li><li>Addendum</li></ul>
+</div>
+<dl class="found">
+<div><dt>Building</dt><dd>Example Tower</dd></div>
+<div><dt>Unit</dt><dd>1204</dd></div>
+<div><dt>Bedrooms</dt><dd>2</dd></div>
+<div><dt>Annual rent</dt><dd>AED 85,000</dd></div>
+<div><dt>Lease</dt><dd>1 Mar 2026 to 28 Feb 2027</dd></div>
+<span class="cap">Example of what is pulled from the documents. Anything not written in them is left blank for you.</span>
+</dl>
+</div></section>
+<section class="band pdf"><div class="in">
+<h2>One PDF you can put in front of anyone.</h2>
+<ul>
+<li>Entry and exit photos side by side</li>
+<li>Meter readings and keys counted</li>
+<li>Every item with its condition then and now</li>
+<li>Proposed deductions and the deposit balance</li>
+<li>Tenant and agent signatures, drawn on screen</li>
+<li>A fingerprint that shows the report was not edited</li>
+</ul>
+</div></section>
+<section class="band green"><div class="in">
+<h2>Made around Dubai tenancies.</h2>
+<p>The paperwork you already hold drives the app: title deed, tenancy contract, addendum, Ejari number, deposit. Everything stays on your iPhone. Only the document pages you choose to read are sent for extraction, and only after you agree.</p>
+</div></section>
+<section class="band cta"><div class="in">
+<h2>Be first to use it.</h2>
+<p>Write to us and we add you to the beta.</p>
+<a class="btn" href="mailto:karyne.declercq@icloud.com?subject=Prop%20Inspection%20early%20access">Request early access</a>
+</div></section>
+<footer><div class="in"><span>Prop Inspection documents the condition of a property. It is not legal advice.</span><span>Karyne de Clercq, Dubai &nbsp; <a href="support.html">Support</a> &nbsp; <a href="privacy.html">Privacy</a></span></div></footer>
+<script>
+(function(){var chips=document.querySelectorAll('.chip'),note=document.getElementById('note');
+chips.forEach(function(c){c.addEventListener('click',function(){chips.forEach(function(x){x.setAttribute('aria-checked',x===c)});note.textContent=c.getAttribute('data-n')})})})();
+</script>
 </body>
 </html>
